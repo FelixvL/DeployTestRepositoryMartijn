@@ -4,7 +4,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://localhost:3306/felixdeploy
+    url: jdbc:mysql://localhost:3306/felixdeploy?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: felixdeploy
     password: FelixDeploy1234
     driverClassName: com.mysql.jdbc.Driver
