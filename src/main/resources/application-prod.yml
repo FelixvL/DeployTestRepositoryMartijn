@@ -9,4 +9,4 @@ spring:
     password: FelixDeploy1234
     driverClassName: com.mysql.jdbc.Driver
 server:
-  port: 9000
+  port: 9082
